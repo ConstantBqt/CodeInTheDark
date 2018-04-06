@@ -1,0 +1,29 @@
+.column {
+    float: left;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+    background: url('background.png') no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color:  	#FFFFFF;
+}
+
+h2 {
+    color:  	#FFFFFF;
+}
+
+h4 {
+    color: #A9A9A9;
+}
+
+h5 {
+    color: #FF00FF;
+}

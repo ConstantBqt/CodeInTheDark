@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body{
+            color: #9f0462;
+        }
+        #left{
+            float: left;
+            width: 35%;
+
+        }
+        #right{
+            background: url("background.png") no-repeat;
+            background-size: cover;
+            margin-left: 36%;
+
+        }
+
+        #container{
+            margin-top: 20%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        input{
+            width: 100%;
+            border-bottom: #9f0462 1px;
+        }
+        label{
+            margin-top: 3%;
+        }
+        button{
+            float: right;
+            margin-top: 90%;
+            border-radius: 3px;
+            background-color: #9f0462;
+            color: #ffffff;
+        }
+
+        #welcome{
+            margin-top: 30%;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 40px;
+        }
+        #login{
+            margin-top: 40%;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 17px;
+        }
+
+        #warning{
+            bottom: 0px;
+            width: 100%;
+            font-size: 15px;
+            color: #9b9f92;
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div id="left">
+<div id="container">
+    <label>
+        ID no.
+        <input type="text" placeholder="8452156">
+    </label>
+    <label>
+        Password
+        <input type="text" placeholder="********">
+    </label>
+    <label>
+        Can't login ?
+    </label>
+    <button>Login</button>
+
+    <div id="warning">
+    <strong>WARNING</strong><br>
+        This Website doesn't require any software installation so <br>
+        do not agree any installation process to access this site...
+    </div>
+</div>
+</div>
+
+<div id="right">
+<div id="welcome">
+Welcome to our <strong>Website</strong>
+</div>
+<div id="login">
+    Login to acces your account
+</div>
+</div>
+</body>
+</html>

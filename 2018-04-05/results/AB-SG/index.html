@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<style>
+			* {
+				font-family: sans-serif;
+			}
+			body {
+				display: flex;
+				flex-direction: row;
+				min-height: 100vh;
+			}
+
+			#image-container {
+				width: 77%;
+				background: url('./background.png');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-start;
+				color: #FFF;
+				min-height: 100vh;
+				padding: 40px;
+			}
+
+			label {
+				color: #C5C5C5;
+			}
+			label.active {
+				color: #612297;
+			}
+
+			input {
+				margin-bottom: 20px 0;
+				border: none;
+				border-bottom: 2px solid #C5C5C5;
+			}
+
+			input.active {
+				border: none;
+				border-bottom: 2px solid #612297;
+			}
+
+			form {
+				width: 33%;
+				padding: 20px;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				justify-content: center;
+			}
+
+			.button-container {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-items: center;
+			}
+			a {
+				color: #C5C5C5;
+			}
+			button {
+				background-color: #612297;
+				border-radius: 100%;
+				border: solid 1px;
+				border-radius: 5px;
+			}
+
+			.degueu {
+				position: fixed;
+				left: 20px;
+				bottom: 20px;
+			}
+
+			h5 {
+				color: #612297;
+			}
+
+			.degueu p {
+				color: #C5C5C5;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="degueu">
+			<h5>Warning!</h5>
+			<p>De toutes façons personne arrivera à lire ça sur un projo.</p>
+		</div>
+		<form>
+			<label class="active">ID no.</label>
+			<input type="text" placeholder="ID no." class="active"/>
+			<label>ID no.</label>
+			<input type="password" placeholder="Password" />
+			<div class="button-container">
+				<a href="#">
+					Can't login ?
+				</a>
+				<button type="submit">
+					Login
+				</button>
+			</div>
+		</form>
+		<div id="image-container">
+			<h1>Welcome to our <strong>website</strong></h1>
+			<h3>Login to access your account</h3>
+		</div>
+	</body>
+</html>
+
